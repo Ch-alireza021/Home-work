@@ -1,0 +1,64 @@
+*{
+    color:#b98b6b;
+box-sizing: border-box;
+font-weight: 700;
+font-size: 18px;
+font-family: yekan;
+}
+
+@font-face {
+    font-family: "yekan";
+    src: url(./Yekan-Font-master/Yekan.ttf) format('truetypefont');
+    /* src: url(./Yekan-Font-master/Yekan.eot) format('eot'); */
+    src: url(./Yekan-Font-master/Yekan.woff) format('woff');
+}
+
+.main{
+     width: 700px;
+     height: 320px;
+     margin:100px auto;
+     border: 5px solid #b98b6b;
+    background-image: url('./56.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 10px 10px 20px  black;
+    border-radius: 15px;
+    color: cadetblue;
+
+}
+
+
+.first,.second,.third{
+    direction: rtl;
+}
+
+p{
+    display: inline-block;
+}
+img{
+    margin:20px  15px 0;
+    width: 200px;
+    height: 270px;
+    border-radius: 15px;
+}
+
+.img,.container{
+    display: inline-block;
+    margin-bottom: 20;
+    vertical-align: middle;
+
+}
+
+.first-p{
+    text-align:right;
+    width: 100%;
+    /* margin-left: 340px; */
+}
+
+p.first{
+    width: 60%;
+}
+
+div.forth p.first{
+    width: 100%;
+}

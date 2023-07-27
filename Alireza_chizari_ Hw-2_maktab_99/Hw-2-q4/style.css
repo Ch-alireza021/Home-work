@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #131417;
+}
+/* ------------aside---------- */
+aside{
+    float: left;
+    display: inline-block;
+    width: 13%;
+    background-color: #1e1f26;
+    height: 100vh;
+}
+
+.first{
+    position: relative;
+    background-color: #292c36;
+    color: #fffff0;
+    width: 80%;
+    margin: auto;
+    /* padding: 10px; */
+    /* height: 80px; */
+    border-radius: 0  0 9px 9px;
+    font-size: 18px;
+    line-height: 2;
+}
+div.first::after{
+    background: linear-gradient(70deg,hsl(196.27deg 100% 53.73%),hsl( 49.32deg 100% 62.55% ),hsl( 274.88deg 70.49% 64.12% ),hsl( 139.41deg 58.62% 54.51% ));
+    position: absolute;
+    top: -2px;
+    left: 0;
+    right: 0;
+    content: "";
+    height: 3px;
+    z-index: 1;
+
+}
+.first-1{
+    border-bottom: 1px solid #131417;
+}
+.first-1,
+.first-2{
+    padding: 2px 2px 10px;
+
+}
+.first-1:hover,.first-2:hover{
+    background-color: #131417;
+    color:red;
+}
+.first i:hover{
+    color:cadetblue;
+}
+
+ a{
+   color: #fffff0;
+   text-decoration: none;
+}
+i.bi-chevron-down{
+    margin-left: 30px;
+}
+i{
+    padding-left: 10px;
+    margin-right: 1px;
+    vertical-align: middle;
+}
+
+.Sidebar_link{
+    color: #fffff0;
+    margin: 10px;
+
+}
+li:hover{
+    background-color:#141516 ;
+}
+ul{
+    margin-top: 20px;
+    list-style: none;
+
+}
+li{
+    font-size: 20px;
+    padding:10px 10px;
+}
+
+/* ================main========= */
+main{
+    float:left;
+    display: inline-block;
+    width: 85%;
+}
+img{
+    /* transform: scale(.9); */
+    vertical-align: center;
+    margin-bottom: 50px;
+}
+--------------hover----------

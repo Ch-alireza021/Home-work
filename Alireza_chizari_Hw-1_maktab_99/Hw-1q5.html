@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Hw-1-q5.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <h1>
+            از سوال یک تا 5 روی هدر جواب سوال کلیک کنید به صفحه مربوطه ارجاع داده میشید
+        </h1>
+    </div>
+    <div>
+        <a href="./Hw-1-q1/Hw-1.html" target="_blank">
+        <h2>جواب سوال اول</h2>
+        </a>
+    </div>
+    <div>
+        <a href="./Hw-1-q2/Hw-1.html" target="_blank">
+        <h2>جواب سوال دوم</h2>
+        </a>
+
+        <p>تمامیه ورودی هایی که از پرامپت میگیریم به ما استرینگ بر میگرداند و ما میتوانیم فقط تایپ های نامبر و استرینگ و بولین را تشخیص دهیم از ورودی روی جواب سوال دو کلیلک کنید تا ارجا داده شوید</p>
+    </div>
+    <div>
+        <a href="./Hw-1-q3/Hw-1.html" target='_blank' >
+        <h2>جواب سوال سوم</h2>
+        </a>
+        <details>
+            <code style="margin-right: 50px;"> 
+                let userName=prompt('Enter your username');
+                <br> if ((isNaN(userName)===true)){
+                <br>   let conf=confirm(`do you comnfirm ${userName}`);
+                <br>  if(conf==true){
+                <br>       alert(`hello ${userName}`)
+                <br>   } else {
+                <br>       alert(`you didn't confirm ${userName}`)
+                <br>    }
+                <br>}else (alert("username type is incorrect "))
+                
+                </code>
+                <code > 
+                    <br>let userName=prompt('Enter your username');
+                    <br>let confirm=prompt('confirm your username','confirm');
+                    
+                    <br>if ((confirm==='confirm')&&(isNaN(userName)===true)){
+                    <br>    alert('hello '+userName);
+                    <br>} else if ((isNaN(userName)===false)){
+                        <br>alert('username type is incorrect');   
+                    <br>} else {
+                        <br>alert('Username not confirmed');
+                    <br>}
+                </code>
+        </details>
+    </div>
+    <div>
+        <a href="./Hw-1-q4/Hw-1.html" target="_blank">
+        <h2>جواب سوال چهارم</h2>
+        </a>
+        <details>
+            <code>
+                <pre>
+ let usernumber_1=prompt('enter first number');
+ let usernumber_2=prompt('enter second number');
+ let sum=parseInt(usernumber_1)+parseInt(usernumber_2);
+                    
+if (isNaN(usernumber_1)===true){
+    alert('first inpute is not a number');
+} else if(isNaN(usernumber_2)===true){
+    alert('second inpute is not a number')
+}else {
+    alert(sum)
+ }
+                </pre>
+            </code>
+        </details>
+       
+    </div>
+  
+    <div>
+        <h2>جواب سوال پنجم</h2>
+         <button class="btn"><a href="https://www.google.com/">کلیک کنید</a></button>
+         <a href="https://www.google.com/" class="google">کلیک کنید</a>
+    </div>
+
+    <!-- javabe soale 6 -->
+    <div>
+        <h2>جواب سوال ششم</h2>
+    <p>
+        <ul>
+            <li> undefined یک مقدار خاص است که نشان می‌دهد که مقدار یک متغیر تعریف نشده است نشانگر عدم تعریف یا عدم اختصاص مقدار به یک متغیر است</li>
+            <li>null یک مقدار خاص است و نشان میدهد متغیر هیچ مقداری ندارداگر به متغیری null دهیم در واقع گفتیم که ان متغیر خالیست</li>
+            <li>صفر یک عدد است و به معنای عدم وجود مقدار است.می‌توانید صفر را به عنوان یک عدد صحیح استفاده کنیم</li>
+        </ul>
+        <p>یکی دیگه از تفاوت های جالبی که شما باید بهش توجه داشته باشید زمان انجام عملیات های ریاضی با null و undefined است.عملیات های با null value نتیجه integer value خواهد داشت در حالی که هر عملیات ریاضی با undefined نتیجه اون Nan خواهد بود.</p>
+    </p>
+    </div>
+    <div>
+        <h2>جواب سوال هفتم</h2>
+        <p>
+            <ul>
+                <li>var:&nbsp;  برای تعریف متغیر استفاده میشود و بیرون بلوک هم قابل دسترسی است ینی اگر درون تابعی مقدار ان تغییر کند بعد از ان تابع مقدار وار ما عوض شده است و میتوانیم ان را تعریف کنیم بعدا مقدار دهی کنیم و با خطا رو به رو نمیشویم </li>
+                <li> let ; &nbsp; برای تعریف متغیر استفاده میشود و در داخل بلوک قابل دسترسی هستند و در خارج از بلوک قابلیت دسترسی ندارند خوب این یعنی اگر ما درون یک تابع متغیرمان را عوض کنیم بیرون ان تابع به ان دسترسی ندارم و همان مقدرا اولیه را به ما میدهد و اگر هنگام تعریف مقدار ان را تعیین نکنیم با خطا رو به رو میشویم</li>
+                <li>const :&nbsp;برای تعریف داده استفاده میشود و درتمام مدت ثابت هست و هیچ کجا عوض نمیشود و مثل لت درون بلوکی است و خارج از بلوک به ان دسترسی نداریم تفاوت ان با لت این است که حتی درون تابع هم تغییر نمیتواند کند و کاملا ثابت است  برای سال تولد از این عنصر استفاده میکنن </li>
+            </ul>
+            p
+        </p>
+    </div>
+    <div>
+         <h2>جواب سوال هشتم</h2>
+         <p>
+به طور خلاصه اگر بخواهیم به سوال «تفاوت کتابخانه و فریم‌ورک چیست؟» پاسخ دهیم. کتابخانه مجموعه‌ای از کدهای از پیش نوشته شده است که در صورت لزوم از آن برای راحتی کار خود و صرفه‌جویی وقت، استفاده می‌کنیم. در مقابل، فریم‌ورک در واقع چهارچوب و اسکلت از پیش ساخته شده کدها است که در اختیار برنامه نویس قرار داده شده است. </p>
+<p>
+    مفهوم کتابخانه در برنامه نویسی نیز شبیه به کتابخانه معمولی است. یعنی کتابخانه مجموعه‌ای از کلاس‌ها و توابع و کدهای آماده است که باعث می‌شود به جای اینکه این کدها را از اول خودمان بنویسیم، از کدهای آماده‌ی از قبل نوشته شده استفاده کنیم تا کارمان آسان شود و درگیر کدهای پیچیده و وقت‌گیر نشویم.
+</p>
+<p>
+    تفاوت اصلی بین کتاب‌خانه و فریم‌ورک در وارونگی کنترل (inversion of Control) است؛ یعنی نحوه صدا کردن (Call) آن‌ها با هم تفاوت دارد. وقتی یک کتابخانه را فراخوانی می‌کنید، در حقیقت کدهای شما است که کتابخانه را صدا می‌زند و بر عمل‌کرد آن تاثیر می‌گذارد. اما در فریم‌ورک عکس این قضیه است. یعنی فریم‌ورک کدهای شما را فراخوانی می‌کند و روی آن‌ها تاثیر می‌گذارد.
+</p>
+
+    </div>
+    <div>
+        <h2>جواب سوال نهم</h2>
+        <p> ساختار کلیه سند اچ تی ام ال به این صورت هست که از head و body ساخته شده است</p>
+        <p>داخل head ما متا تگ ها و لینک ها را قرار میدهیم و تایتل html</p>
+        <p>داخل body  هم ما تگ ها و اتریبیوت های زیادی داریم که استفاده میشود و بخ طور کلی body را میتوان به بخش header,main,asdide و فوتر تقسیم بندی کرد</p>
+
+    </div>
+</body>
+</html>
