@@ -27,14 +27,16 @@ body{
     width: 4rem;
 }
 
-/* .main{
+.main{
     position: relative;
-} */
+    height: 100vh;
+    /* background-color: red; */
+    width: 100%;
+}
 #toast{
     position: absolute;
-    display: block;
-    /* top: 10px; */
-    /* right: 20px; */
+    /* display: block; */
+   
     padding: 1rem  2rem;
     min-width: 300px;
     background-color: red;
