@@ -1,0 +1,20 @@
+let stepCounter = {
+ step: 0,
+ increase: () => {
+ this.step++;
+ return this;
+ },
+ decrease: () => {
+ this.step--;
+ return this;
+ },
+ reset: () => {
+ this.step = 0;
+ return this;
+ },
+ read: () => {
+ console.log(this.step);
+ return this;
+ },
+};
+console.log(stepCounter.increase().decrease().reset().read());

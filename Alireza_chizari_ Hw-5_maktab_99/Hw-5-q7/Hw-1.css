@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ec78fb;
+  color: #f0ecea;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.visit__card {
+  width: 23rem;
+  height: 23rem;
+  background-color: #ac5ccc;
+  border-radius: 2rem;
+  padding: 1.5rem 3rem;
+}
+
+/* .visit__card .profile__Picture */
+
+.visit__card .profile__Pic span {
+  display: block;
+  font-size: 1.3em;
+}
+
+.visit__card .profile__Pic img {
+  width: 5rem;
+  border-radius: 5rem;
+  margin-bottom: 1.5rem;
+  border: 0.3rem solid #f0ecea;
+}
+
+/* .visit__card .name */
+.visit__card .name {
+  font-size: 1.5em;
+  margin: 0.8rem 0;
+}
+
+/* .visit__card .social */
+.visit__card .social {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 1.2rem;
+}
+.visit__card .social span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  background-color: #f0ecea;
+  border-radius: 5rem;
+}
+
+
+.visit__card .social span:first-child {
+  color: blue;
+}
+
+.visit__card .social span:nth-child(2) {
+  color: red;
+}
+.visit__card .social span:last-child {
+  color: green;
+}
