@@ -34,13 +34,17 @@ let topOrBottom = function (formData) {
   toast.style.bottom = "";
   toast.style.left = "";
   toast.style.right = "";
+
   // set locaition
-  formData.loc1 === "top"
-    ? (toast.style.top = `${distance1}px`)
-    : (toast.style.bottom = `${distance1}px`);
-  formData.loc2 === "left"
-    ? (toast.style.left = `${distance2}px`)
-    : (toast.style.right = `${distance2}px`);
+  // formData.loc1 === "top"
+  //   ? (toast.style.top = `${distance1}px`)
+  //   : (toast.style.bottom = `${distance1}px`);
+  // formData.loc2 === "left"
+  //   ? (toast.style.left = `${distance2}px`)
+  //   : (toast.style.right = `${distance2}px`);
+
+  toast.style[formData.loc1] = `${distance1}px`
+  toast.style[formData.loc2] = `${distance1}px`
 };
 // ------------------------------------------------------
 
