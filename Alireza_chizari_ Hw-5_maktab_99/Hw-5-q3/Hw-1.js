@@ -8,7 +8,7 @@ form.addEventListener('submit',function(e){
     e.preventDefault();
     const formData = Object.fromEntries(new FormData(form).entries());
     userInfo(formData);
-   sort()
+    sort()
     form.reset()
     
 })

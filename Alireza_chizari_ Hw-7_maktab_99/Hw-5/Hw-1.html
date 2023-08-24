@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./Hw-1.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="head">
+        <div class="logo">LOGO</div>
+        <div class="nav">
+          <ul>
+            <li>Company</li>
+            <li>Service</li>
+            <li>FinTech Solution</li>
+            <li>Products</li>
+            <li>Portfoalio</li>
+            <li class="Contact-us">Contact us</li>
+          </ul>
+        </div>
+      </header>
+      <div class="main-aside">
+        <div class="main">
+          <header>
+            <h1>Contact us</h1>
+            <p>
+              Need an experienced and skilled hand with custom IT projects?
+              <br />
+              Fill out the form to get a free consultation.
+            </p>
+          </header>
+          <!-- -----company name----- -->
+          <form action="#" class="form">
+            <div class="input-box">
+              <input
+                type="text"
+                placeholder="Your Company Name"
+                class="comapny"
+                required
+              />
+              <hr />
+            </div>
+            <!-- -----bussiness----- -->
+            <div class="input-box">
+                required
+                <input type="text" placeholder="Nature of Bussiness" required />
+              <hr />
+            </div>
+            <!-- -----adress----- -->
+            <div class="Adress">
+              <div class="input-box adress">
+                <input type="text" placeholder="Adress"  required/>
+                <hr />
+              </div>
+              <div class="input-box Postcode">
+                <input type="text" placeholder="Postcode" required />
+                <hr />
+              </div>
+            </div>
+            <!-- -----name----- -->
+            <div class="input-box">
+              <input type="text" placeholder="Contact name"required />
+              <hr />
+            </div>
+            <!-- ----- phone ----- -->
+            <div class="input-box">
+              <input type="tel" placeholder="Contact Phone" required />
+              <hr />
+            </div>
+            <!-- ----- email ----- -->
+            <div class="input-box">
+              <input type="email" placeholder="email@gmail" id="email" required />
+              <hr />
+              <span class="valid"> Pleas enter valid email adress </span>
+            </div>
+            <!-- ----- linkdin ----- -->
+            <div class="input-box">
+              <input type="text" placeholder="Linkedin"  required/>
+              <hr />
+            </div>
+            <!-- ----- idea ----- -->
+            <div class="input-box">
+              <input type="text" placeholder="Let’s talk about your idea" required/>
+              <hr />
+            </div>
+            <!-- ----------upload------ -->
+
+            <div class="area">
+              <input type="file" id="upload" required />
+              <div class="upload-area-text">
+                <img src="./upload.svg" alt="" />
+                <span>Upload Additional file</span>
+              </div>
+            </div>
+            <p class="after-area">
+              Attach file. File size of your documents should not exceed 10MB
+            </p>
+
+            <button type="submit" class="btn">SUBMIT</button>
+
+            <div class="checkbox">
+              <input type="checkbox" id="checkbox" checked/>
+              <label for="checkbox"
+                >I want to protect my data by signing an NDA</label
+              >
+            </div>
+          </form>
+        </div>
+        <!-- ------------------aside----------------- -->
+        <aside>
+          <div class="office">
+            <h3>Offices</h3>
+            <span>
+              United States <br />
+              500 5th Avenue Suite 400, NY 10110
+            </span>
+            <span>
+              United Kingdom <br />
+              High St, Bromley BR1 1DN
+            </span>
+            <span>
+              France <br />
+              80 avenue des Terroirs de France, Paris
+            </span>
+          </div>
+          <div class="inquires">
+            <div>For Quick Inquiries</div>
+            <div class="phone">
+              <span><img src="./flag-uk 1.svg" alt="" />+44 7777777777</span>
+              <span><img src="./Vector.svg" alt="" />+1 3333333330</span>
+            </div>
+          </div>
+
+          <div class="subscrine">
+            <span>Would you like to join our newsletter?</span>
+            <div class="email-box">
+              <div class="box">
+                <input type="email" placeholder="Email" />
+                <hr class="hr" />
+              </div>
+              <button type="submit" class="btn2">
+                <img src="./check.svg" class="img" alt="" />
+              </button>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </div>
+
+    <script src="./Hw-1.js"></script>
+  </body>
+</html>

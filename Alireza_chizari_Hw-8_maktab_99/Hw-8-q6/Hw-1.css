@@ -1,0 +1,138 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* ---------- container ---------- */
+.container {
+  width: 100%;
+  height: 100vh;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  position: relative;
+}
+/* ---------- grid ---------- */
+.wrapper {
+  display: grid;
+  grid-template-areas: "a b c";
+  gap: 23px;
+}
+
+.a {
+  grid-area: a;
+}
+.b {
+  grid-area: b;
+}
+.c {
+  grid-area: c;
+}
+/* ---------- card ---------- */
+.card {
+  width: 280px;
+  height: 384px;
+  background: #ffffff;
+  position: relative;
+  filter: drop-shadow(0px 2px 2px #00000025);
+  z-index: 100;
+}
+/*--- card-top ---*/
+.card .top {
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.card .number {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #000;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+/*--- content ---*/
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 26px;
+  margin-top: 68px;
+}
+.card .content header {
+  color: #000;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 700;
+}
+.card .content p {
+  width: 239px;
+  color: #000;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 0 20px;
+  line-height: 18px;
+ 
+}
+
+/* ----------  circle ---------- */
+.circle-top {
+  width: 175px;
+  height: 167px;
+  border-radius: 0px 0px 0px 150px;
+  background: #007cef;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.circle-bottom {
+  width: 175px;
+  height: 167px;
+  border-radius: 0 150px 0 0;
+  background: #007cef;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+/* ---------- media ---------- */
+
+@media (max-width: 660px) {
+  .circle-top {
+    display: none;
+  }
+  .circle-bottom {
+    display: none;
+  }
+}
+
+@media (max-width: 900px) {
+  .container {
+    width: 100%;
+    height: min-content;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .wrapper {
+    display: grid;
+    grid-template-areas:
+      "a"
+      "b"
+      "c";
+  }
+
+  .card {
+    margin-top: 50px;
+  }
+}

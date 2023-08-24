@@ -1,0 +1,161 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* font-weight: 400; */
+
+}
+.container {
+  width: 1440px;
+  /* height: 1024px; */
+  position: relative;
+  background: #dce0d8;
+  margin: 0 auto;
+  padding-bottom:20px ;
+}
+
+header {
+  width: 100%;
+  height: 180px;
+  background: #008d9b;
+  border-radius: 0 0 52px 52px;
+  display: flex;
+  justify-content: space-between;
+}
+.login {
+  width: 227px;
+  display: flex;
+  align-items: center;
+  height: 90px;
+  margin-left: 54px;
+  color: white;
+  font-size: 20px;
+}
+
+.search-box {
+  width: 513px;
+  height: 46px;
+  display: flex;
+  padding: 7px 14px;
+  left: 839px;
+  margin-top: 25px;
+  background: #dce0d8;
+  border-radius: 11px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 8px;
+  margin-right: 100px;
+}
+.search {
+  width: 59px;
+  color: black;
+  font-size: 20px;
+  font-weight: 400;
+}
+.bi-search {
+  width: 32px;
+  color: black;
+  font-size: 20px;
+  font-weight: 400;
+}
+.categori {
+  direction: rtl;
+  display: flex;
+  gap: 35px;
+}
+.header-text {
+  top: 6px;
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.main {
+  margin: 50px 0;
+}
+.head {
+  width: 1434px;
+  height: 397px;
+  left: 3px;
+  top: 240px;
+  /* position: absolute; */
+  border-radius: 48px;
+}
+
+.product {
+  display: flex;
+  justify-content: end;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  gap: 10px;
+  width: 100%;
+}
+/* -----list----- */
+
+.list {
+    margin-right: 10px;
+  display: flex;
+  justify-content: end;
+  width: 32%;
+  height: 330px;
+  position: relative;
+  padding: 20px 0 0 20px;  /* border: 2px solid red; */
+box-shadow: 0px 0px 10px black;
+border-radius: 10px;
+
+
+
+}
+.list .img {
+    display: flex;
+  /* background-color: #008d9b; */
+  width: 160px;
+  height: 100%;
+  justify-content: start;
+  flex-direction: column;
+  align-items:center;
+  gap: 20px;
+}
+.list .img .btn{
+background-color: #008d9b;
+color: white; 
+padding: 5px 2px;
+border-radius: 48px;
+filter: drop-shadow(2px 2px 4px rgb(6, 6, 6));
+font-weight: 600;
+
+/* box-shadow: 0px 4px 4px black; */
+cursor: pointer;
+}
+
+.list .img img {
+  width: 120px;
+  height: 100px;
+  filter: drop-shadow(0px 4px 4px);
+  border: 0;
+  display: block;
+}
+.list .name {
+  width: 281px;
+  height: 86px;
+  left: 10px;
+  top: 23px;
+  position: absolute;
+  color: black;
+  font-size: 20px;
+  font-weight: 400;
+  direction: rtl;
+}
+.list .details {
+  width: 281px;
+  left: 9px;
+  top: 123px;
+  position: absolute;
+  text-align: right;
+  color: black;
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 600;
+  word-wrap: break-word;
+  direction: rtl;
+}

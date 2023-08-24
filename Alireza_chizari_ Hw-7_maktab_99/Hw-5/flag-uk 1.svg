@@ -1,0 +1,20 @@
+<svg width="23" height="16" viewBox="0 0 23 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="flag-uk 1" clip-path="url(#clip0_0_94)">
+<g id="Group">
+<path id="Vector" d="M0 0V16H23V0H0Z" fill="#012169"/>
+<path id="Vector_2" d="M0 0L23 16L0 0ZM23 0L0 16L23 0Z" fill="#2CAA4D"/>
+<path id="Vector_3" d="M23 0L0 16L23 0ZM0 0L23 16L0 0Z" stroke="white" stroke-width="4.6"/>
+<path id="Vector_4" d="M0 0L23 16L0 0ZM23 0L0 16L23 0Z" fill="#2CAA4D"/>
+<path id="Vector_5" d="M23 0L0 16L23 0ZM0 0L23 16L0 0Z" stroke="#C8102E" stroke-width="3.06667"/>
+<path id="Vector_6" d="M11.5 0V16V0ZM0 8H23H0Z" fill="#2CAA4D"/>
+<path id="Vector_7" d="M0 8H23H0ZM11.5 0V16V0Z" stroke="white" stroke-width="7.66667"/>
+<path id="Vector_8" d="M11.5 0V16V0ZM0 8H23H0Z" fill="#2CAA4D"/>
+<path id="Vector_9" d="M0 8H23H0ZM11.5 0V16V0Z" stroke="#C8102E" stroke-width="4.6"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_0_94">
+<rect width="23" height="16" fill="white"/>
+</clipPath>
+</defs>
+</svg>
